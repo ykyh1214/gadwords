@@ -1,0 +1,26 @@
+{
+    "oauth2.Config": {
+        "ClientID": "xxx",
+        "ClientSecret": "xxxx",
+        "Endpoint": {
+            "AuthURL": "https://accounts.google.com/o/oauth2/auth",
+            "TokenURL": "https://oauth2.googleapis.com/token",
+            "AuthStyle": 0
+        },
+        "RedirectURL": "urn:ietf:wg:oauth:2.0:oob",
+        "Scopes": [
+            "https://adwords.google.com/api/adwords"
+        ]
+    },
+    "oauth2.Token": {
+        "access_token": "xxxxx",
+        "token_type": "Bearer",
+        "refresh_token": "xxxx",
+        "expiry": "2020-09-01T12:28:18.5549028+08:00"
+    },
+    "gads.Auth": {
+        "CustomerId": "xxx",
+        "DeveloperToken": "xxx",
+        "UserAgent": "tests (Golang 1.4 github.com/emiddleton/gads)"
+    }
+}
